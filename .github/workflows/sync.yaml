@@ -1,3 +1,7 @@
+permissions:
+  contents: write
+  pull-requests: write  # gh repo sync 有时需要创建 PR
+
 name: Upstream Sync
 
 on:
